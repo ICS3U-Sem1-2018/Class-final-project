@@ -5,9 +5,9 @@ using System.Collections;
 [CustomEditor(typeof(InventorySystem))]
 public class InventorySystemEditor : Editor
 {
-   // private bool[] showItemSlots = new bool[InventorySystem.numItemSlots];
+    private bool[] showItemSlots = new bool[InventorySystem.size];
     private SerializedProperty itemsProperty;
-    public bool[] showItemSlots = new bool[InventorySystem.size];
+    public bool[] size = new bool[InventorySystem.size];
     private const string inventoryPropItemsName = "items";
     private void OnEnable()
     {
@@ -25,7 +25,7 @@ public class InventorySystemEditor : Editor
 
     private void ItemSlotGUI(int index)
     {
-        EditorGUILayout.BeginVertical(GUI.skin.box);
+EditorGUILayout.BeginVertical (GUI.skin.box);
         EditorGUI.indentLevel++;
 
         showItemSlots[index] = EditorGUILayout.Foldout(showItemSlots[index], "Item slot " + index);
