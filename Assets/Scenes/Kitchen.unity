@@ -406,13 +406,13 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.83
-    height: 1
+    width: 1.15
+    height: 1.2
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.719738
+  orthographic size: 5.1251316
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -436,8 +436,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627817533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19, y: 1.05, z: -10}
-  m_LocalScale: {x: 1.7, y: 1, z: 1}
+  m_LocalPosition: {x: 0.74, y: 1.29, z: -10}
+  m_LocalScale: {x: 3.730388, y: 2.0169084, z: 1.7848747}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1091,7 +1091,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca29c1fceb5af3947b2dcaa342eb3641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item1: {fileID: 0}
+  item2: {fileID: 0}
   newLevel: SampleScene
+  Item1Level: 
+  Item2Level: 
 --- !u!61 &1644756242
 BoxCollider2D:
   m_ObjectHideFlags: 0
