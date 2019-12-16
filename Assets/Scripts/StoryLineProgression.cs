@@ -9,20 +9,22 @@ public class StoryLineProgression : MonoBehaviour
 
     void Update()
     {
-        while(true)
+        if (keyCheck || boxCheck == true)
         {
-            if(Input.GetKeyDown("space"))
+            if (Input.GetKeyDown("space"))
             {
                 Destroy(key);
                 Destroy(box);
             }
             return;
         }
+
+
         //Input.GetKeyDown("space") 
-         //keycheck = true
-         //then ......
+        //keycheck = true
+        //then ......
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("key"))
         {
@@ -42,5 +44,17 @@ public class StoryLineProgression : MonoBehaviour
         //destroy key
         //destroy box
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("key"))
+        {
+            keyCheck = false;
+        }
+        if (collision.CompareTag("box"))
+        {
+            boxCheck = false;
+        }
+    }
 }
-       
+
