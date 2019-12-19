@@ -28,14 +28,12 @@ public class StoryLineProgression : MonoBehaviour
     {
         if (other.CompareTag("key"))
         {
-            Debug.Log("KEY");
 
             keyCheck = true;
 
         }
         if (other.CompareTag("box"))
         {
-            Debug.Log("BOX");
 
             boxCheck = true;
 

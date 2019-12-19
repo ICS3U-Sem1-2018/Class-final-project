@@ -7,7 +7,7 @@ public class InventorySystem : MonoBehaviour
 {
      public Item[] items;
     [SerializeField]
-    public const int size = 20;
+    public const int size = 5;
 
     // Start is called before the first frame update
     void Start()

@@ -648,6 +648,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item1: {fileID: 11400000, guid: 25ebd92a1f88d0642a6f69cf187dffe9, type: 2}
   item2: {fileID: 11400000, guid: dc4e0bd1f4c8bc7449bef5061d8aa089, type: 2}
+  item1Check: 0
+  item2Check: 0
   newLevel: Hallway
   Item1Level: Kitchen
   Item2Level: Bedroom
