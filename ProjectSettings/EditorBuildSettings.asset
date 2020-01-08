@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 0076bb173784c68439547e585a990dbc
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -38,4 +41,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Starter scenes/Livingroom from left.unity
     guid: ccc826bdd6708f44a80e66139456c4e6
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: eed31d8d093739a4fb92d1d7b6f1126e
+  - enabled: 1
+    path: Assets/Scenes/Layout.unity
+    guid: 35bbe31d186d42840a425314a0961e1f
   m_configObjects: {}
