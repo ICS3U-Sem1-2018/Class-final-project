@@ -9,12 +9,33 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Bedroom.unity
+    path: Assets/Scenes/Starter scenes/Bedroom.unity
     guid: 103caede84ad57c49b61a7156b2f2bbe
   - enabled: 1
-    path: Assets/Scenes/Hallway.unity
+    path: Assets/Scenes/Starter scenes/Hallway.unity
     guid: f80b9561b93dfd14592e6a52cede0121
   - enabled: 1
-    path: Assets/Scenes/Kitchen.unity
+    path: Assets/Scenes/Starter scenes/Kitchen.unity
     guid: 20918ef4d4ff5d2479c6b7b6749ac736
+  - enabled: 1
+    path: Assets/Scenes/Starter scenes/Livingroom.unity
+    guid: 775e6994d0ded574c871f6df156e355f
+  - enabled: 1
+    path: Assets/Scenes/Starter scenes/Bathroom.unity
+    guid: 5fe7d5adfe890f34697486a5e9436195
+  - enabled: 1
+    path: Assets/Scenes/Starter scenes/Bathroom from left.unity
+    guid: 674cad1be248faf4197ca50bb501239d
+  - enabled: 1
+    path: Assets/Scenes/Starter scenes/Bedroom from left.unity
+    guid: 859f95b6a3211ac448612c762a5a83db
+  - enabled: 1
+    path: Assets/Scenes/Starter scenes/Hallway from left.unity
+    guid: 293fa45d44c84bc478b280f8fece4c88
+  - enabled: 1
+    path: Assets/Scenes/Starter scenes/Kitchen from left.unity
+    guid: 111f0d8517913d7488a8c6b02a1d1f88
+  - enabled: 1
+    path: Assets/Scenes/Starter scenes/Livingroom from left.unity
+    guid: ccc826bdd6708f44a80e66139456c4e6
   m_configObjects: {}

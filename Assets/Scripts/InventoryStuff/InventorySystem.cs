@@ -13,6 +13,8 @@ public class InventorySystem : MonoBehaviour
     void Start()
     {
         items = new Item[size];
+        DontDestroyOnLoad(this.gameObject);
+
     }
     public void AddItem(Item itemToAdd)
     {
@@ -31,7 +33,6 @@ public class InventorySystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
    
 }

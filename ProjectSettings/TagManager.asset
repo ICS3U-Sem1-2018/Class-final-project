@@ -40,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: For Random Background Objects In Replacements
+    uniqueID: 3233911153
+    locked: 0
   - name: background
     uniqueID: 218827647
     locked: 0
