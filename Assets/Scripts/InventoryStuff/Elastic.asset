@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3adddb6a8f44374e823365e7e2fb11e, type: 3}
+  m_Name: Elastic
+  m_EditorClassIdentifier: 
+  itemObject: {fileID: 6673834979914439761, guid: cd63fe3057d35894eb5ff73987c6dc34,
+    type: 3}

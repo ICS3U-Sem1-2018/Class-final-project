@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Starter scenes/Livingroom from left.unity
     guid: ccc826bdd6708f44a80e66139456c4e6
+  - enabled: 1
+    path: Assets/Scenes/InteractibleItemsScenes/Bathroom/Bathroom with Hair Elastic.unity
+    guid: 2c0a4671b9f8f3c4294cc1efe250dc8e
   m_configObjects: {}

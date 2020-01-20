@@ -6,6 +6,7 @@ TagManager:
   tags:
   - box
   - key
+  - button
   layers:
   - Default
   - TransparentFX
@@ -65,5 +66,8 @@ TagManager:
     uniqueID: 2032879433
     locked: 0
   - name: 5 ground
+    uniqueID: 223694787
+    locked: 0
+  - name: 6 ground
     uniqueID: 727334615
     locked: 0
