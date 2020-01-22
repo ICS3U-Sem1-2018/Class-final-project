@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InteractibleItemsScenes/Bathroom/Bathroom with Hair Elastic.unity
     guid: 2c0a4671b9f8f3c4294cc1efe250dc8e
+  - enabled: 1
+    path: Assets/Scenes/InteractibleItemsScenes/Hallway with Painting, Floor Board.unity
+    guid: 1823d05181b5b0c4caa4b476d8e7118a
   m_configObjects: {}
